@@ -56,70 +56,6 @@
       "updatedAt": "2025-05-09T06:43:11.311Z"
     },
     {
-      "id": "d517fc9d-46a3-40f6-a2b8-e99e9636a526",
-      "name": "finance.sina.com Rule 666",
-      "description": "",
-      "urlPatterns": [
-        "^https://finance\\.sina\\.com\\.cn/jjxw/2025-05-08/doc-inevuzvc2851444\\.shtml"
-      ],
-      "selectors": [
-        {
-          "type": "css",
-          "value": "#artibody p , #top_bar .clearfix, .main-title",
-          "name": "content"
-        },
-        {
-          "type": "css",
-          "value": "p",
-          "name": "field2"
-        },
-        {
-          "type": "css",
-          "value": "#top_bar",
-          "name": "field3"
-        }
-      ],
-      "isActive": true,
-      "createdAt": "2025-05-12T03:48:47.243Z",
-      "updatedAt": "2025-05-15T04:51:24.363Z"
-    },
-    {
-      "id": "79bbe73e-b720-48a3-aafa-89c56a6354b7",
-      "name": "finance.sina.com Rule 71",
-      "description": "",
-      "urlPatterns": [
-        "^https://finance\\.sina\\.com\\.cn/jjxw/2025-05-08/doc-inevuzvc2851444\\.shtml"
-      ],
-      "selectors": [
-        {
-          "type": "css",
-          "value": "#top_bar .clearfix",
-          "name": "content"
-        }
-      ],
-      "isActive": true,
-      "createdAt": "2025-05-12T03:59:19.688Z",
-      "updatedAt": "2025-05-13T06:40:41.720Z"
-    },
-    {
-      "id": "40faa550-b786-42ff-baf9-4f11e0049022",
-      "name": "finance.sina.com Rule 1121",
-      "description": "",
-      "urlPatterns": [
-        "^https://finance\\.sina\\.com\\.cn/jjxw/2025-05-08/doc-inevuzvc2851444\\.shtml"
-      ],
-      "selectors": [
-        {
-          "type": "css",
-          "value": "#top_bar a",
-          "name": "content"
-        }
-      ],
-      "isActive": true,
-      "createdAt": "2025-05-12T12:35:10.975Z",
-      "updatedAt": "2025-05-13T05:18:27.266Z"
-    },
-    {
       "id": "f5939fc7-10f2-41b5-9f44-92ae24d38d45",
       "name": "xueqiu Rule frontpage",
       "description": "",
@@ -154,24 +90,6 @@
       "isActive": true,
       "createdAt": "2025-05-13T06:38:16.677Z",
       "updatedAt": "2025-05-13T06:38:16.677Z"
-    },
-    {
-      "id": "1149f5c4-c05e-4082-a02f-4cc17ee895cb",
-      "name": "finance.sina.com Rule relative news title",
-      "description": "",
-      "urlPatterns": [
-        "^https://finance\\.sina\\.com\\.cn/jjxw/2025-05-08/doc-inevuzvc2851444\\.shtml"
-      ],
-      "selectors": [
-        {
-          "type": "css",
-          "value": "#tycard_list div",
-          "name": "content"
-        }
-      ],
-      "isActive": true,
-      "createdAt": "2025-05-15T05:24:13.707Z",
-      "updatedAt": "2025-05-15T05:24:13.707Z"
     },
     {
       "id": "f86edc88-6c1e-48cc-8a66-5db74f1dcccf",
@@ -228,6 +146,6 @@
       "updatedAt": "2025-05-21T02:46:33.641Z"
     }
   ],
-  "updatedAt": "2025-05-21T07:59:20.740Z",
+  "updatedAt": "2025-05-21T08:07:21.379Z",
   "source": "Nexus Extension"
 }
