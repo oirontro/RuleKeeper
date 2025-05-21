@@ -74,24 +74,6 @@
       "updatedAt": "2025-05-12T12:40:24.199Z"
     },
     {
-      "id": "fca7bbfc-55bc-44f6-bd31-17dacf7c9799",
-      "name": "finance.sina.com Rule 222",
-      "description": "",
-      "urlPatterns": [
-        "^https://finance\\.sina\\.com\\.cn/jjxw/2025-05-08/doc-inevuzvc2851444\\.shtml"
-      ],
-      "selectors": [
-        {
-          "type": "css",
-          "value": "p",
-          "name": "content"
-        }
-      ],
-      "isActive": true,
-      "createdAt": "2025-05-13T06:38:16.677Z",
-      "updatedAt": "2025-05-13T06:38:16.677Z"
-    },
-    {
       "id": "f86edc88-6c1e-48cc-8a66-5db74f1dcccf",
       "name": "bloomberg Rule",
       "description": "",
@@ -144,8 +126,26 @@
       "isActive": true,
       "createdAt": "2025-05-21T02:45:12.451Z",
       "updatedAt": "2025-05-21T02:46:33.641Z"
+    },
+    {
+      "id": "ca41b23e-c28e-418f-b004-335b93adf7de",
+      "name": "finance.sina.com Rule 1",
+      "description": "",
+      "urlPatterns": [
+        "^https://finance\\.sina\\.com\\.cn/jjxw/2025-05-08/doc-inevuzvc2851444\\.shtml"
+      ],
+      "selectors": [
+        {
+          "type": "css",
+          "value": "#artibody p , .ent-source, .date, .main-title",
+          "name": "content"
+        }
+      ],
+      "isActive": true,
+      "createdAt": "2025-05-21T08:12:59.849Z",
+      "updatedAt": "2025-05-21T08:12:59.849Z"
     }
   ],
-  "updatedAt": "2025-05-21T08:07:21.379Z",
+  "updatedAt": "2025-05-21T08:16:38.531Z",
   "source": "Nexus Extension"
 }
